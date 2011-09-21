@@ -1,0 +1,83 @@
+	enum {
+		var0 = UQ_SHARED_VAR,
+		var1 = UQ_SHARED_VAR,
+		var2 = UQ_SHARED_VAR,
+		var3 = UQ_SHARED_VAR,
+		var4 = UQ_SHARED_VAR,
+		var5 = UQ_SHARED_VAR,
+		var6 = UQ_SHARED_VAR,
+		var7 = UQ_SHARED_VAR,
+		var8 = UQ_SHARED_VAR,
+		var9 = UQ_SHARED_VAR,
+		var10 = UQ_SHARED_VAR,
+		var11 = UQ_SHARED_VAR,
+		var12 = UQ_SHARED_VAR,
+		var13 = UQ_SHARED_VAR,
+		var14 = UQ_SHARED_VAR,
+		var15 = UQ_SHARED_VAR,
+		var16 = UQ_SHARED_VAR,
+		var17 = UQ_SHARED_VAR,
+		var18 = UQ_SHARED_VAR,
+		var19 = UQ_SHARED_VAR,
+		var20 = UQ_SHARED_VAR,
+		var21 = UQ_SHARED_VAR,
+		var22 = UQ_SHARED_VAR,
+		var23 = UQ_SHARED_VAR,
+		var24 = UQ_SHARED_VAR,
+		var25 = UQ_SHARED_VAR,
+		var26 = UQ_SHARED_VAR,
+		var27 = UQ_SHARED_VAR,
+		var28 = UQ_SHARED_VAR,
+		var29 = UQ_SHARED_VAR,
+		var30 = UQ_SHARED_VAR,
+		var31 = UQ_SHARED_VAR,
+		var32 = UQ_SHARED_VAR,
+		var33 = UQ_SHARED_VAR,
+		var34 = UQ_SHARED_VAR,
+		var35 = UQ_SHARED_VAR,
+		var36 = UQ_SHARED_VAR,
+		var37 = UQ_SHARED_VAR,
+		var38 = UQ_SHARED_VAR,
+		var39 = UQ_SHARED_VAR,
+	};
+
+REP:.I[var0] -> ShareDataC.SharedVariable[var0];
+REP:.I[var1] -> ShareDataC.SharedVariable[var1];
+REP:.I[var2] -> ShareDataC.SharedVariable[var2];
+REP:.I[var3] -> ShareDataC.SharedVariable[var3];
+REP:.I[var4] -> ShareDataC.SharedVariable[var4];
+REP:.I[var5] -> ShareDataC.SharedVariable[var5];
+REP:.I[var6] -> ShareDataC.SharedVariable[var6];
+REP:.I[var7] -> ShareDataC.SharedVariable[var7];
+REP:.I[var8] -> ShareDataC.SharedVariable[var8];
+REP:.I[var9] -> ShareDataC.SharedVariable[var9];
+REP:.I[var10] -> ShareDataC.SharedVariable[var10];
+REP:.I[var11] -> ShareDataC.SharedVariable[var11];
+REP:.I[var12] -> ShareDataC.SharedVariable[var12];
+REP:.I[var13] -> ShareDataC.SharedVariable[var13];
+REP:.I[var14] -> ShareDataC.SharedVariable[var14];
+REP:.I[var15] -> ShareDataC.SharedVariable[var15];
+REP:.I[var16] -> ShareDataC.SharedVariable[var16];
+REP:.I[var17] -> ShareDataC.SharedVariable[var17];
+REP:.I[var18] -> ShareDataC.SharedVariable[var18];
+REP:.I[var19] -> ShareDataC.SharedVariable[var19];
+REP:.I[var20] -> ShareDataC.SharedVariable[var20];
+REP:.I[var21] -> ShareDataC.SharedVariable[var21];
+REP:.I[var22] -> ShareDataC.SharedVariable[var22];
+REP:.I[var23] -> ShareDataC.SharedVariable[var23];
+REP:.I[var24] -> ShareDataC.SharedVariable[var24];
+REP:.I[var25] -> ShareDataC.SharedVariable[var25];
+REP:.I[var26] -> ShareDataC.SharedVariable[var26];
+REP:.I[var27] -> ShareDataC.SharedVariable[var27];
+REP:.I[var28] -> ShareDataC.SharedVariable[var28];
+REP:.I[var29] -> ShareDataC.SharedVariable[var29];
+REP:.I[var30] -> ShareDataC.SharedVariable[var30];
+REP:.I[var31] -> ShareDataC.SharedVariable[var31];
+REP:.I[var32] -> ShareDataC.SharedVariable[var32];
+REP:.I[var33] -> ShareDataC.SharedVariable[var33];
+REP:.I[var34] -> ShareDataC.SharedVariable[var34];
+REP:.I[var35] -> ShareDataC.SharedVariable[var35];
+REP:.I[var36] -> ShareDataC.SharedVariable[var36];
+REP:.I[var37] -> ShareDataC.SharedVariable[var37];
+REP:.I[var38] -> ShareDataC.SharedVariable[var38];
+REP:.I[var39] -> ShareDataC.SharedVariable[var39];

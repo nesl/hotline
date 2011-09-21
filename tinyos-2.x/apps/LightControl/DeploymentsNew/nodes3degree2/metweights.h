@@ -1,0 +1,127 @@
+#ifndef _MET_WEIGHTS_H_
+#define _MET_WEIGHTS_H_
+
+float W(uint16_t n1) {
+	float a = 0;
+	switch (TOS_NODE_ID) {
+		case 0: {
+			switch (n1) {
+				case 0: a=0.269841; break;
+				case 1: a=0.142857; break;
+				case 2: a=0.166667; break;
+				case 3: a=0.142857; break;
+				case 4: a=0.111111; break;
+				case 6: a=0.166667; break;
+				default: break;
+			}
+			break;
+		}
+		case 1: {
+			switch (n1) {
+				case 0: a=0.142857; break;
+				case 1: a=0.174603; break;
+				case 2: a=0.142857; break;
+				case 3: a=0.142857; break;
+				case 4: a=0.111111; break;
+				case 5: a=0.142857; break;
+				case 7: a=0.142857; break;
+				default: break;
+			}
+			break;
+		}
+		case 2: {
+			switch (n1) {
+				case 0: a=0.166667; break;
+				case 1: a=0.142857; break;
+				case 2: a=0.269841; break;
+				case 4: a=0.111111; break;
+				case 5: a=0.142857; break;
+				case 8: a=0.166667; break;
+				default: break;
+			}
+			break;
+		}
+		case 3: {
+			switch (n1) {
+				case 0: a=0.142857; break;
+				case 1: a=0.142857; break;
+				case 3: a=0.174603; break;
+				case 4: a=0.111111; break;
+				case 5: a=0.142857; break;
+				case 6: a=0.142857; break;
+				case 7: a=0.142857; break;
+				default: break;
+			}
+			break;
+		}
+		case 4: {
+			switch (n1) {
+				case 0: a=0.111111; break;
+				case 1: a=0.111111; break;
+				case 2: a=0.111111; break;
+				case 3: a=0.111111; break;
+				case 4: a=0.111111; break;
+				case 5: a=0.111111; break;
+				case 6: a=0.111111; break;
+				case 7: a=0.111111; break;
+				case 8: a=0.111111; break;
+				default: break;
+			}
+			break;
+		}
+		case 5: {
+			switch (n1) {
+				case 1: a=0.142857; break;
+				case 2: a=0.142857; break;
+				case 3: a=0.142857; break;
+				case 4: a=0.111111; break;
+				case 5: a=0.174603; break;
+				case 7: a=0.142857; break;
+				case 8: a=0.142857; break;
+				default: break;
+			}
+			break;
+		}
+		case 6: {
+			switch (n1) {
+				case 0: a=0.166667; break;
+				case 3: a=0.142857; break;
+				case 4: a=0.111111; break;
+				case 6: a=0.269841; break;
+				case 7: a=0.142857; break;
+				case 8: a=0.166667; break;
+				default: break;
+			}
+			break;
+		}
+		case 7: {
+			switch (n1) {
+				case 1: a=0.142857; break;
+				case 3: a=0.142857; break;
+				case 4: a=0.111111; break;
+				case 5: a=0.142857; break;
+				case 6: a=0.142857; break;
+				case 7: a=0.174603; break;
+				case 8: a=0.142857; break;
+				default: break;
+			}
+			break;
+		}
+		case 8: {
+			switch (n1) {
+				case 2: a=0.166667; break;
+				case 4: a=0.111111; break;
+				case 5: a=0.142857; break;
+				case 6: a=0.166667; break;
+				case 7: a=0.142857; break;
+				case 8: a=0.269841; break;
+				default: break;
+			}
+			break;
+		}
+		default: break;
+	}
+	return a;
+}
+
+#endif

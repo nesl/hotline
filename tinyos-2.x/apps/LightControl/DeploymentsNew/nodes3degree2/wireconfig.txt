@@ -1,0 +1,21 @@
+	enum {
+		var0 = UQ_SHARED_VAR,
+		var1 = UQ_SHARED_VAR,
+		var2 = UQ_SHARED_VAR,
+		var3 = UQ_SHARED_VAR,
+		var4 = UQ_SHARED_VAR,
+		var5 = UQ_SHARED_VAR,
+		var6 = UQ_SHARED_VAR,
+		var7 = UQ_SHARED_VAR,
+		var8 = UQ_SHARED_VAR,
+	};
+
+REP:.I[var0] -> ShareDataC.SharedVariable[var0];
+REP:.I[var1] -> ShareDataC.SharedVariable[var1];
+REP:.I[var2] -> ShareDataC.SharedVariable[var2];
+REP:.I[var3] -> ShareDataC.SharedVariable[var3];
+REP:.I[var4] -> ShareDataC.SharedVariable[var4];
+REP:.I[var5] -> ShareDataC.SharedVariable[var5];
+REP:.I[var6] -> ShareDataC.SharedVariable[var6];
+REP:.I[var7] -> ShareDataC.SharedVariable[var7];
+REP:.I[var8] -> ShareDataC.SharedVariable[var8];
